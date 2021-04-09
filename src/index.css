@@ -62,8 +62,8 @@ body {
   margin-right: 10px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
- }
-#programmingimage{
+}
+#programmingimage {
   margin-top: 25px;
 }
 #aboutmelinktext {
@@ -114,60 +114,66 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
-hr#timeline{
+hr#timeline {
   border-width: 5px;
-  border-color: #6767FF;
+  border-color: #6767ff;
   width: 120px;
   margin-top: 20px;
   animation-name: move;
 }
-#round{
+#round {
   border-radius: 50%;
   background-color: #6767ff;
   width: 40px;
   height: 40px;
 }
-#round:hover{
-  background-color:#6767FF;
+#round:hover {
+  background-color: #6767ff;
 }
-#timeline1{
-  margin-left: -30px;
-  
+#timeline1 {
+  margin-left: 30px;
 }
-#timeline2{
-  margin-left: -30px;
-}
-#timeline3{
+#timeline2 {
   margin-left: -30px;
 }
-#timeline4{
+#timeline3 {
   margin-left: -30px;
 }
-#timeline5{
+#timeline4 {
   margin-left: -30px;
 }
-#timeline6{
-  margin-left: -60px;
+#timeline5 {
+  margin-left: -30px;
 }
-#metext{
+#timeline6 {
+  margin-left: -70px;
+}
+#metext {
   position: absolute;
   margin-top: 10px;
-  
 }
-#timeline:hover{
-  border: 3px solid #6767FF;
+#timeline:hover {
+  border: 3px solid #6767ff;
+}
+#Skills {
+  margin-top: 100px;
 }
 #skillstext {
   font-size: 30px;
-  margin-top: 50px;
-  margin-left: 30px;
-  margin-right: 10px;
+  text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
-#technologytext{
+#technologytext {
   font-size: 20px;
   margin-top: 12px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
+}
+#t1:hover{
+  transform: scaleX(1);
+}
+#t2:hover{
+  transform: scale(1.1);
+
 }
