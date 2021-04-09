@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thulasiraman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col w-50" id="profileimageandnamecontainer">
+          <div class="d-flex flex-row">
+            <img src="./assests/tr.jpg" id="profileimage" alt="Profilepic" />
+            <h6 id="thulasiramantext">Thulasiraman</h6>
+          </div>
+        </div>
+        <div class="col w-50">
+          <div class="d-flex flex-row justify-content-end"id="socialmedialinkcontainer">
+            <a href="https://github.com/Thulasiraman-Dev" target="_blank" class="d-flex flex-row">
+              <img src="./assests//github.png" alt="github" id="githubicon" />
+              <h6 id="githubtext">Github</h6>
+            </a>
+            <a href="www.linkedin.com/in/thulasi-raman-626985208" target="_blank" class="d-flex flex-row">
+              <img src="./assests/linkedin.png" alt="linkedin" id="linkedinicon"/>
+              <h6 id="linkedintext">Linkedin</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" id="aboutmelinktext" href="">AboutMe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="knowntechnologylinktext" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="knowntechnologylinktext" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="projectslinktext" href="">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contactmelinktext" href="#">ContactMe</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container" >
+      <div class="row">
+        <div class="col">
+          <h1 id="aboutmetext">AboutMe</h1>
+          <p id="aboutmedescriptiontext">
+            Hi! I’m Thulasiraman,a student born and raised in Madurai, India. I
+            have been pursuing my B.E degree(Computer Science Engineering)
+            since 2018.
+          </p>
+        </div>
+        <div class="col">
+          <img src="./assests/programming_prev_ui.png" alt="programmingimage" id="programmingimage" class="img-fluid mx-auto d-block"/>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="education">
+      <div class="row">
+        <div class="col">
+          <img
+          src="./assests/undraw_Graduation_ktn0.png"
+          alt="programmingimage"
+          id="educationimage"
+          class="img-fluid mx-auto d-block"
+         />          
+        </div>
+        <div class="col">
+          <h1 id="educationtext">Education</h1>
+          <p id="educationdescriptiontext">
+             "Education is the most powerful weapon which you can use to change the world"
+           <br>  --Nelson Mandela
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-sm mb-5">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="col d-flex flex-row" id="timeline1">
+          <hr id="timeline" />
+          <div class="d-flex flex-column" >
+            <div id="round"></div>
+            <h4>2015</h4>
+          </div>
+        </div>
+        <div class="col d-flex flex-row" id="timeline2">
+          <hr id="timeline" onclick="tenthstandatd()" />
+          <div class="d-flex flex-column" >
+            <div id="round"></div>
+            <h4>2016</h4>
+          </div>
+        </div>
+        <div class="col d-flex flex-row" id="timeline3">
+          <hr id="timeline" />
+          <div class="d-flex flex-column">
+            <div id="round"></div>
+            <h4>2017</h4>
+          </div>
+        </div>
+        <div class="col d-flex flex-row" id="timeline4">
+          <hr id="timeline"  onclick=" twelthstandatd()" />
+          <div class="d-flex flex-column">
+            <div id="round"></div>
+            <h4>2018</h4>
+          </div>
+        </div>
+        <div class="col d-flex flex-row" id="timeline5">
+          <hr id="timeline" onclick="college()" />
+          <div class="d-flex flex-column">
+            <div id="round"></div>
+            <h4>2022</h4>
+          </div>
+        </div>
+        <div class="col d-flex flex-row" id="timeline6">
+          <hr id="timeline" />
+        </div>
+      </div>
+    </div>
+    <div class="container mb-5" id="Skills">
+      
+      <h6 id="skillstext">Skills:</h6>
+      <div class="d-flex flex-row ml-3 mt-3">
+          <div class="d-flex flex-row ml-2">
+            <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" />
+            <h6 id="technologytext" class="ml-2">C++</h6>
+          </div> 
+          <div class="d-flex flex-row ml-2">
+            <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" />
+            <h6 id="technologytext" class="ml-2">Java</h6>
+          </div>
+          <div class="d-flex flex-row ml-2">
+            <img src="https://img.icons8.com/color/48/000000/python.png"  />
+            <h6 id="technologytext" class="ml-2">Python</h6>
+          </div>
+      </div>
+      <div class="d-flex flex-row ml-3 mt-3">
+        <div class="d-flex flex-row ml-2 ">
+          <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
+          <h6 id="technologytext" class="ml-2">HTML</h6>
+        </div>
+        <div class="d-flex flex-row ml-2">
+          <img src="https://img.icons8.com/color/48/000000/css3.png" />
+          <h6 id="technologytext" class="ml-2">CSS</h6>
+        </div>
+        <div class="d-flex flex-row ml-2" >
+          <img src="https://img.icons8.com/color/48/000000/javascript.png" />
+          <h6 id="technologytext" class="ml-2">Javascript</h6>
+        </div>
+        <div class="d-flex flex-row ml-2 ">
+          <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
+          <h6 id="technologytext" class="ml-2">Bootstrap4</h6>
+        </div>
+        <div class="d-flex flex-row ml-2">
+          <img src="https://img.icons8.com/color/48/000000/react-native.png" />
+          <h6 id="technologytext" class="ml-2">ReactJs</h6>
+        </div>
+      </div>
+      <div class="d-flex flex-row ml-3 mt-3">
+        <div class="d-flex flex-row ml-2 ">
+          <img src="https://img.icons8.com/color/48/000000/django.png" />
+          <h6 id="technologytext" class="ml-2">Django</h6>
+        </div>
+        <div class="d-flex flex-row ml-2">
+          <img src="https://img.icons8.com/color/48/000000/nodejs.png" />
+          <h6 id="technologytext" class="ml-2">Nodejs</h6>
+        </div>
+        <div class="d-flex flex-row ml-2" >
+          <img  src="https://img.icons8.com/color/48/000000/mysql-logo.png" />
+          <h6 id="technologytext" class="ml-2">MySql</h6>
+        </div>
+        <div class="d-flex flex-row ml-2 ">
+          <img  src="https://img.icons8.com/color/48/000000/mongodb.png" />
+          <h6 id="technologytext" class="ml-2">MongoDB</h6>
+        </div>
+        <div class="d-flex flex-row ml-2 ">
+          <img  src="https://img.icons8.com/ios-filled/50/fa314a/merge-git.png" />
+          <h6 id="technologytext" class="ml-2">Git</h6>
+        </div>
+       
+      </div>
+      <div class="d-flex flex-row ml-3 mt-3">
+        <div class="d-flex flex-row ml-2 ">
+          <img src="https://img.icons8.com/fluent/48/000000/android-os.png"/>
+          <h6 id="technologytext" class="ml-2">Android Studio(Java)</h6>
+        </div>
+        <div class="d-flex flex-row ml-2">
+          <img src="https://img.icons8.com/color/48/000000/react-native.png" />
+          <h6 id="technologytext" class="ml-2">ReactNative</h6>
+        </div>
+      </div>
+
+ 
+    </div>  
+  </body>
+</html>
